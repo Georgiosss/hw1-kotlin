@@ -109,7 +109,7 @@
     {
       "name": "Problem 2 - test 1",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "4",
       "output": "11",
       "comparison": "included",
@@ -119,7 +119,7 @@
     {
       "name": "Problem 2 - test 2",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "2",
       "output": "2",
       "comparison": "included",
@@ -129,7 +129,7 @@
     {
       "name": "Problem 2 - test 3",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "100",
       "output": "10201",
       "comparison": "included",
@@ -139,7 +139,7 @@
     {
       "name": "Problem 2 - test 4",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "3",
       "output": "10",
       "comparison": "included",
@@ -149,7 +149,7 @@
     {
       "name": "Problem 2 - test 5",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "1000",
       "output": "1101001",
       "comparison": "included",
@@ -159,7 +159,7 @@
     {
       "name": "Problem 2 - test 6",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "123",
       "output": "11120",
       "comparison": "included",
@@ -169,7 +169,7 @@
     {
       "name": "Problem 2 - test 7",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "51235",
       "output": "2121021121",
       "comparison": "included",
@@ -179,7 +179,7 @@
     {
       "name": "Problem 2 - test 8",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "124623",
       "output": "20022221200",
       "comparison": "included",
@@ -189,7 +189,7 @@
     {
       "name": "Problem 2 - test 9",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "0",
       "output": "0",
       "comparison": "included",
@@ -199,7 +199,7 @@
     {
       "name": "Problem 2 - test 10",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-2.py",
+      "run": "kotlinc problem-2.kt -include-runtime -d problem-2.jar && java -jar problem-2.jar",
       "input": "42424242",
       "output": "2221211101010020",
       "comparison": "included",
@@ -213,7 +213,7 @@
     {
       "name": "Problem 3 - test 1",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "3",
       "output": "3",
       "comparison": "included",
@@ -223,7 +223,7 @@
     {
       "name": "Problem 3 - test 2",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "10",
       "output": "4",
       "comparison": "included",
@@ -233,7 +233,7 @@
     {
       "name": "Problem 3 - test 3",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "13",
       "output": "7",
       "comparison": "included",
@@ -243,7 +243,7 @@
     {
       "name": "Problem 3 - test 4",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "23",
       "output": "11",
       "comparison": "included",
@@ -253,7 +253,7 @@
     {
       "name": "Problem 3 - test 5",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "100",
       "output": "16",
       "comparison": "included",
@@ -263,7 +263,7 @@
     {
       "name": "Problem 3 - test 6",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "12301230",
       "output": "27756",
       "comparison": "included",
@@ -273,7 +273,7 @@
     {
       "name": "Problem 3 - test 7",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "2130000",
       "output": "9984",
       "comparison": "included",
@@ -283,7 +283,7 @@
     {
       "name": "Problem 3 - test 8",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "0",
       "output": "0",
       "comparison": "included",
@@ -293,7 +293,7 @@
     {
       "name": "Problem 3 - test 9",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "333333333",
       "output": "262143",
       "comparison": "included",
@@ -303,7 +303,7 @@
     {
       "name": "Problem 3 - test 10",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-3.py",
+      "run": "kotlinc problem-3.kt -include-runtime -d problem-3.jar && java -jar problem-3.jar",
       "input": "100000000",
       "output": "65536",
       "comparison": "included",
@@ -318,7 +318,7 @@
     {
       "name": "Problem 4 - test 1",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "CM",
       "output": "900",
       "comparison": "included",
@@ -328,7 +328,7 @@
     {
       "name": "Problem 4 - test 2",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "VIII",
       "output": "8",
       "comparison": "included",
@@ -338,7 +338,7 @@
     {
       "name": "Problem 4 - test 3",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "MDC",
       "output": "1600",
       "comparison": "included",
@@ -348,7 +348,7 @@
     {
       "name": "Problem 4 - test 4",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "DCCC",
       "output": "800",
       "comparison": "included",
@@ -358,7 +358,7 @@
     {
       "name": "Problem 4 - test 5",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "LXXX",
       "output": "80",
       "comparison": "included",
@@ -368,7 +368,7 @@
     {
       "name": "Problem 4 - test 6",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "XC",
       "output": "90",
       "comparison": "included",
@@ -378,7 +378,7 @@
     {
       "name": "Problem 4 - test 7",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "XL",
       "output": "40",
       "comparison": "included",
@@ -388,7 +388,7 @@
     {
       "name": "Problem 4 - test 8",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "IX",
       "output": "9",
       "comparison": "included",
@@ -398,7 +398,7 @@
     {
       "name": "Problem 4 - test 9",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "MMCMXCIX",
       "output": "2999",
       "comparison": "included",
@@ -408,7 +408,7 @@
     {
       "name": "Problem 4 - test 10",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-4.py",
+      "run": "kotlinc problem-4.kt -include-runtime -d problem-4.jar && java -jar problem-4.jar",
       "input": "MDCCXLIV",
       "output": "1744",
       "comparison": "included",
@@ -423,7 +423,7 @@
     {
       "name": "Problem 5 - test 1",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "8",
       "output": "VIII",
       "comparison": "included",
@@ -433,7 +433,7 @@
     {
       "name": "Problem 5 - test 2",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "900",
       "output": "CM",
       "comparison": "included",
@@ -443,7 +443,7 @@
     {
       "name": "Problem 5 - test 3",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "1600",
       "output": "MDC",
       "comparison": "included",
@@ -453,7 +453,7 @@
     {
       "name": "Problem 5 - test 4",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "2512",
       "output": "MMDXII",
       "comparison": "included",
@@ -463,7 +463,7 @@
     {
       "name": "Problem 5 - test 5",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "834",
       "output": "DCCCXXXIV",
       "comparison": "included",
@@ -473,7 +473,7 @@
     {
       "name": "Problem 5 - test 6",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "2888",
       "output": "MMDCCCLXXXVIII",
       "comparison": "included",
@@ -483,7 +483,7 @@
     {
       "name": "Problem 5 - test 7",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "1734",
       "output": "MDCCXXXIV",
       "comparison": "included",
@@ -493,7 +493,7 @@
     {
       "name": "Problem 5 - test 8",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "798",
       "output": "DCCXCVIII",
       "comparison": "included",
@@ -503,7 +503,7 @@
     {
       "name": "Problem 5 - test 9",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "420",
       "output": "CDXX",
       "comparison": "included",
@@ -513,7 +513,7 @@
     {
       "name": "Problem 5 - test 10",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-5.py",
+      "run": "kotlinc problem-5.kt -include-runtime -d problem-5.jar && java -jar problem-5.jar",
       "input": "69",
       "output": "LXIX",
       "comparison": "included",
@@ -528,7 +528,7 @@
     {
       "name": "Problem 6 - test 1",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "4\n1 2 3 4\n5",
       "output": "2",
       "comparison": "included",
@@ -538,7 +538,7 @@
     {
       "name": "Problem 6 - test 2",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "3\n1 2 3\n10",
       "output": "0",
       "comparison": "included",
@@ -548,7 +548,7 @@
     {
       "name": "Problem 6 - test 3",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "5\n1 1 1 1 1\n2",
       "output": "10",
       "comparison": "included",
@@ -558,7 +558,7 @@
     {
       "name": "Problem 6 - test 4",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "1\n5\n5",
       "output": "0",
       "comparison": "included",
@@ -568,7 +568,7 @@
     {
       "name": "Problem 6 - test 5",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "10\n1 2 3 4 5 6 7 8 9 10\n11",
       "output": "5",
       "comparison": "included",
@@ -578,7 +578,7 @@
     {
       "name": "Problem 6 - test 6",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "100\n9 8 1 1 2 6 2 7 9 7 3 2 6 6 5 4 10 10 2 1 10 5 10 4 9 7 10 7 3 9 9 1 8 1 3 9 6 6 6 6 2 10 7 7 6 2 2 7 3 3 7 2 10 7 5 10 3 6 6 7 7 6 10 4 8 2 3 5 8 10 10 1 9 9 10 6 10 1 2 4 6 1 5 5 7 2 4 1 7 2 10 3 9 9 7 7 2 1 3 1\n12",
       "output": "460",
       "comparison": "included",
@@ -588,7 +588,7 @@
     {
       "name": "Problem 6 - test 7",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "100\n6 10 7 10 1 10 4 10 9 5 5 6 5 6 1 10 1 10 4 1 9 6 8 9 9 8 7 1 3 6 10 9 6 8 10 8 7 3 10 7 9 4 2 3 10 3 3 2 2 6 4 2 2 4 1 2 3 7 2 5 3 3 5 10 10 4 7 8 9 6 7 9 2 8 2 3 2 4 4 3 1 9 5 4 2 7 5 6 5 9 3 7 1 7 8 3 3 5 2 3\n12",
       "output": "473",
       "comparison": "included",
@@ -598,7 +598,7 @@
     {
       "name": "Problem 6 - test 8",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "100\n2 8 8 8 5 2 1 8 6 4 1 10 6 4 10 6 10 7 6 4 1 3 8 4 6 9 10 4 1 5 2 2 2 1 9 8 2 2 5 10 7 8 9 2 1 10 10 10 6 5 6 9 10 3 2 5 4 3 10 4 7 3 6 10 3 6 8 4 9 4 5 5 1 4 9 3 5 8 5 1 4 10 1 3 2 2 9 5 4 10 1 2 2 8 1 4 3 8 10 2\n12",
       "output": "461",
       "comparison": "included",
@@ -608,7 +608,7 @@
     {
       "name": "Problem 6 - test 9",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "100\n4 7 9 6 8 5 8 4 6 10 9 8 8 4 6 3 6 7 3 4 7 4 5 5 5 8 9 9 2 10 1 6 7 2 3 6 8 2 9 3 3 10 2 10 3 7 2 8 3 4 4 9 7 10 5 3 7 3 1 9 3 4 6 1 7 10 6 4 3 6 8 5 5 9 4 9 5 7 9 9 2 4 7 10 3 2 2 10 6 4 10 8 9 7 8 5 6 5 8 8\n12",
       "output": "525",
       "comparison": "included",
@@ -618,7 +618,7 @@
     {
       "name": "Problem 6 - test 10",
       "setup": "sudo -H chmod -R +x .",
-      "run": "python3 problem-6.py",
+      "run": "kotlinc problem-6.kt -include-runtime -d problem-6.jar && java -jar problem-6.jar",
       "input": "100\n5 4 8 5 2 1 6 6 4 9 1 3 7 6 6 5 6 2 3 10 10 3 1 9 1 1 6 1 1 1 3 7 5 2 3 6 2 8 3 7 6 5 2 4 10 7 8 7 10 2 9 9 6 1 7 8 1 4 8 4 5 2 10 1 4 3 8 7 2 3 4 10 9 5 3 1 1 1 7 10 4 7 10 10 8 8 7 8 1 7 3 7 10 3 9 5 7 9 2 8\n12",
       "output": "387",
       "comparison": "included",
