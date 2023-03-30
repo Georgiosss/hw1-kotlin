@@ -1,1 +1,2 @@
-# hw1-kotlin
+# Homework 1 - python
+
