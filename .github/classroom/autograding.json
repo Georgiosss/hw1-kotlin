@@ -3,7 +3,7 @@
     {
       "name": "Problem 1 - test 1",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "3 \n1 2 1",
       "output": "YES",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Problem 1 - test 2",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "3 \n1 2 3",
       "output": "NO",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Problem 1 - test 3",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "1 \n42",
       "output": "YES",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Problem 1 - test 4",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "2 \n1000 1000",
       "output": "NO",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Problem 1 - test 5",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "7 \n1 1 1 1 1 1 1",
       "output": "YES",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Problem 1 - test 6",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "6 \n1 1 1 1 1 1",
       "output": "NO",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "Problem 1 - test 7",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "5 \n1 2 4 1234 7",
       "output": "YES",
       "comparison": "included",
@@ -73,7 +73,7 @@
     {
       "name": "Problem 1 - test 8",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "6 \n1 13 14 2 14 14",
       "output": "YES",
       "comparison": "included",
@@ -83,7 +83,7 @@
     {
       "name": "Problem 1 - test 9",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "10 \n1 2 3 4 5 6 7 8 9 10",
       "output": "NO",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "Problem 1 - test 10",
       "setup": "sudo -H chmod -R +x .",
-      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar"",
+      "run": "kotlinc problem-1.kt -include-runtime -d problem-1.jar && java -jar problem-1.jar",
       "input": "0",
       "output": "NO",
       "comparison": "included",
